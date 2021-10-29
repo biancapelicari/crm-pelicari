@@ -8,8 +8,10 @@ body{
 }
 h1{
     text-align: center;
-    padding: 15px;
-    font-family: initial;
+   border:none;
+   background-image: none;
+   padding:5px;
+   color:#000
 }
 #botoesGuia{
     border: #000;

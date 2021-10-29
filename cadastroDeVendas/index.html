@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <div id="top">
+        <div id="cabecalio">
+            <h1>MinhasVendas.com</h1>
+        </div>
+        <div id="divBusca"> 
+            <form action="">
+                <input type="text" id="txtBusca" placeholder="pesquise cliente..."/>
+            </form>
+        </div>
+        <br>
+        <div id="bordaDaGuia">
+            <form action="">
+                <button id="botaoDaGuiaH">Home</button>
+                <button id="botaoDaGuiaV">Vendas</button>
+                <button id="botaoDaGuiaC">Clientes</button>
+                <button id="botaoDaGuiaA">Agenda</button>
+            </form>
+        </div>
+    </div>     
+    <form action="">
+        <fieldset id="cadastro">
+            <div class="txt">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" class="botaoTxt" required> 
+            </div>
+            <br>
+            <div class="txt">
+                <label for="numer">Número</label>
+                <input type="number" name="numero" class="botaoTxt" required> 
+            </div>
+            <br>
+            <div class="txt">
+                <label for="doc">CPF ou CNPJ</label>
+                <input type="text" name="doc" class="botaoTxt" required>
+            </div>
+            <br>
+            <div class="txt">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" class="botaoTxt" required>
+            </div>
+            <br>
+            <div class="txt">
+                <label for="endereco">Endeço</label>
+                <input type="text" name="endereco" class="botaoTxt" required>
+            </div>
+            <br><br>
+            <input type="submit" id="submit" required>
+            <br>
+        </fieldset>
+    </form>
+</body>
